@@ -42,7 +42,7 @@ vff_avoidance/
 
 <h3>Documentation of Files</h3>
 <ul>
-<li><b><code>AvoidanceNodeConfig.yaml</code></b>:</li>
+<li><b><code>AvoidanceNodeConfig.yaml</code></b>: Contains all the parameters used by the <code>AvoidanceNode</code> and the <code>VFF algorithm</code>.</li>
 <li><b><code>AvoidanceNode.hpp</code></b>: Class header for the <code>AvoidanceNode.cpp</code> where it contains functions, variables, and also gets all the parameters defined inside the <code>AvoidanceNodeConfig.yaml</code>.</li>
 <li><b><code>avoidance_vff.launch.py</code></b>: Automatically starts the <code>VFF node</code>, <code>rviz2</code>, and <code>Gazebo</code>.</li>
 <li><b><code>avoidance_vff_main.cpp</code></b>: Initializes <code>ROS2</code>, initializes the node and spins it.</li>
