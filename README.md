@@ -34,4 +34,4 @@ vff_avoidance/
 ```
 
 
-<p>Note that in this implementation, the <b>vff_avoidance</b> package is inside the following directory: <b>/avoidance_node/src</b></p>
+<ul><li>Note that in this implementation, the <b>vff_avoidance</b> package is inside the following directory: <b>/avoidance_node/src</b></li></ul>
