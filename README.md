@@ -1,2 +1,2 @@
-<h1>ROS2 CPP Mini-Project</h1>
+<h1><b>ROS2 CPP Mini-Project</b></h1>
 <hr>
