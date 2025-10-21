@@ -42,5 +42,11 @@ vff_avoidance/
 
 <h3>Documentation of Files</h3>
 <ul>
-<li></li>
+<li><b><code>AvoidanceNodeConfig.yaml</code></b>:</li>
+<li><b><code>AvoidanceNode.hpp</code></b>:</li>
+<li><b><code>avoidance_vff.launch.py</code></b>:</li>
+<li><b><code>avoidance_vff_main.cpp</code></b>:</li>
+<li><b><code>AvoidanceNode.cpp</code></b>:</li>
+<li><b><code>CMakeLists.txt</code></b>:</li>
+<li><b><code>package.xml</code></b>:</li>
 </ul>
