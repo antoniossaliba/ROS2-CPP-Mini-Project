@@ -13,3 +13,4 @@
 <li>Angular speed is proportional to the angle or direction of the Resultant vector.</li>
 </ul>
 </ol>
+<hr>
