@@ -50,3 +50,9 @@ vff_avoidance/
 <li><b><code>CMakeLists.txt</code></b>: Controls how the node is compiled and installed. It includes directories link <code>cpp</code> files to the executable.</li>
 <li><b><code>package.xml</code></b>: Tells <code>ROS2</code> the package name, the dependencies, the maintainer name, version, description. This file is used when we are building the package using <b><code>colcon build</code></b>, in fact ROS2 read this file when building the package to know which packages and dependencies to use.</li>
 </ul>
+
+<hr>
+
+<ul><li>Two approaches were considered from my end. The first one implemented in this repository and the second one to be discussed at a later stage.</li></ul>
+
+<h3>NOTE: Both approaches will be discussed in depth maybe with Wajih and Ziad at a later stage since I wasn't able to attend this week's meeting.</h3>
