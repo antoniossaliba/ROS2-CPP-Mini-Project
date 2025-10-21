@@ -16,4 +16,22 @@
 <hr>
 <h3>ROS2 Package Structure</h3>
 
+```
+vff_avoidance/
+├── CMakeLists.txt
+├── package.xml
+├── config/
+│   └── AvoidanceNodeConfig.yaml
+├── include/
+│   └── vff_avoidance/
+│       └── AvoidanceNode.hpp
+├── launch/
+│   └── avoidance_vff.launch.py
+└── src/
+    ├── avoidance_vff_main.cpp
+    └── vff_avoidance/
+        └── AvoidanceNode.cpp
+```
+
+
 <p>Note that in this implementation, the <b>vff_avoidance</b> package is inside the following directory: <b>/avoidance_node/src</b></p>
