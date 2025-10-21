@@ -43,10 +43,10 @@ vff_avoidance/
 <h3>Documentation of Files</h3>
 <ul>
 <li><b><code>AvoidanceNodeConfig.yaml</code></b>:</li>
-<li><b><code>AvoidanceNode.hpp</code></b>:</li>
+<li><b><code>AvoidanceNode.hpp</code></b>: Class header for the <code>AvoidanceNode.cpp</code> where it contains functions, variables, and also gets all the parameters defined inside the <code>AvoidanceNodeConfig.yaml</code>.</li>
 <li><b><code>avoidance_vff.launch.py</code></b>:</li>
 <li><b><code>avoidance_vff_main.cpp</code></b>: Initializes <code>ROS2</code>, initializes the node and spins it.</li>
-<li><b><code>AvoidanceNode.cpp</code></b>:</li>
+<li><b><code>AvoidanceNode.cpp</code></b>: Contains <code>VFF algorithm</code> and <code>ROS2</code> callbacks.</li>
 <li><b><code>CMakeLists.txt</code></b>: Controls how the node is compiled and installed. It includes directories link <code>cpp</code> files to the executable.</li>
 <li><b><code>package.xml</code></b>: Tells <code>ROS2</code> the package name, the dependencies, the maintainer name, version, description. This file is used when we are building the package using <b><code>colcon build</code></b>, in fact ROS2 read this file when building the package to know which packages and dependencies to use.</li>
 </ul>
