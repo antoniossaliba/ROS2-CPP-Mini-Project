@@ -1,5 +1,7 @@
 <h1><b>ROS2 CPP Mini-Project</b></h1>
+
 <hr>
+
 <h2>Avoiding Obstacles with VFF</h2>
 <h3>Introduction</h3>
 <h4>In this repository, a turtle bot is programmed to navigate and avoid obstacles in simulation (Gazebo) using the <b>Vitual Force Field (VFF)</b> algorithm.</h4>
@@ -35,3 +37,6 @@ vff_avoidance/
 
 
 <ul><li>Note that in this implementation, the <b>vff_avoidance</b> package is inside the following directory: <b>/avoidance_node/src</b></li></ul>
+
+<hr>
+
