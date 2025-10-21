@@ -48,5 +48,5 @@ vff_avoidance/
 <li><b><code>avoidance_vff_main.cpp</code></b>:</li>
 <li><b><code>AvoidanceNode.cpp</code></b>:</li>
 <li><b><code>CMakeLists.txt</code></b>:</li>
-<li><b><code>package.xml</code></b>:</li>
+<li><b><code>package.xml</code></b>: Tells ROS2 the package name, the dependencies, the maintainer name, version, description. This file is used when we are building the package using <b><code>colcon build</code></b>, in fact ROS2 read this file when building the package to know which packages and dependencies to use.</li>
 </ul>
