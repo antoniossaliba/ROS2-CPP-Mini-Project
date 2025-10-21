@@ -1,0 +1,30 @@
+avoidance_node:
+  ros__parameters:
+    # Topics
+    laser_topic: "/scan"
+    cmd_vel_topic: "/cmd_vel"
+    marker_topic: "/vff_markers"
+    goal_topic: "/goal_pose"
+
+    # Behavior & VFF gains
+    attractive_gain: 1.0
+    repulsive_gain_base: 0.8   # base repulsive gain (multiplied dynamically)
+    repulsive_exponent: 2.0    # controls nonlinearity with distance
+    obstacle_threshold: 1.0    # meters (influence radius)
+
+    # Sectorization
+    num_sectors: 9             # odd number recommended; center sector is forward
+
+    # Filtering / smoothing
+    resultant_alpha: 0.2       # smoothing for resultant vector (0..1, lower=(more smoothing))
+    cmd_alpha: 0.3             # smoothing for published twist
+
+    # Velocity limits and angular behavior
+    max_linear_speed: 0.4
+    max_angular_speed: 1.2
+    angular_deadzone: 0.05     # radians; below this angle, angular = 0
+    angular_gain: 1.2          # multiply heading error before damping/squash
+    angular_damping: 2.0       # used in tanh squashing
+
+    # Timer
+    timer_frequency: 20.0      # Hz (main loop)
